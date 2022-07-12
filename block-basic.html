@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 20px 40px;
+        }
+        
+        header {
+            background-color: red;
+        }
+        
+        article {
+            width: 600px;
+            margin: auto;
+            background-color: red;
+        }
+        
+        section {
+            border: 2px solid;
+            width: 600px;
+            margin: 20px auto;
+        }
+        
+        div:nth-child(2n+1) {
+            height: 50px;
+            overflow: auto;
+        }
+        
+        p:hover {
+            margin: 0;
+        }
+        
+        p {
+            height: 60px;
+            background-color: hotpink;
+            margin: 0 10px;
+        }
+        
+        .c {
+            margin: auto;
+            border: 50px solid red;
+            border-color: transparent transparent orange transparent;
+            width: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <article class="a">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt at, ea natus cupiditate assumenda deserunt ex maxime dignissimos. Soluta laudantium id architecto fugit labore fuga consequatur placeat laboriosam dolorum! Incidunt!</article>
+    </header>
+    <section>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt at, ea natus cupiditate assumenda deserunt ex maxime dignissimos. Soluta laudantium id architecto fugit labore fuga consequatur placeat laboriosam dolorum! Incidunt!</div>
+        <p></p>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt at, ea natus cupiditate assumenda deserunt ex maxime dignissimos. Soluta laudantium id architecto fugit labore fuga consequatur placeat laboriosam dolorum! Incidunt!</div>
+    </section>
+    <div class="c"></div>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        section:first-child {
+            margin: 0 0;
+            background-color: black;
+        }
+        
+        section p:first-child {
+            width: 600px;
+            border: 1px solid hidden;
+            background-color: black;
+            color: white;
+            margin: auto
+        }
+        
+        body>p:nth-child(2) {
+            width: 600px;
+            margin: 20px auto;
+        }
+        
+        #bbb {
+            width: 600px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        
+        section div {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border: solid 1px;
+            width: 180px;
+            height: 40px;
+            text-align: center;
+            background-color: pink;
+        }
+        
+        section div:hover {
+            background-color: red;
+        }
+        
+        div:nth-child(3n+2) {
+            margin-left: 240px;
+            margin-top: -56px;
+        }
+        
+        div:nth-child(3n+3) {
+            margin-left: 480px;
+            margin-top: -58px;
+        }
+        
+        #ccc {
+            margin: 0 auto;
+            width: 600px;
+        }
+        
+        #ccc p {
+            border-bottom: 1px dotted black;
+            border-bottom-color: black;
+        }
+        
+        #ddd {
+            background-color: purple;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>hello world 请调整浏览器窗口大小查看效果hello world 请调整浏览器窗口大小查看效果hello world 请调整浏览器窗口大小查看效果hello world 请调整浏览器窗口大小查看效果hello world 请调整浏览器窗口大小查看效果hello world 请调整浏览器窗口大小查看效果</p>
+    </section>
+    <p>页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px</p>
+
+    <section id="bbb">
+        <div>宽180高40(包含边框)</div>
+        <div>产品</div>
+        <div>产品</div>
+        <div>水平间隙30px</div>
+        <div>产品</div>
+        <div>产品</div>
+        <div>垂直间隙15px</div>
+        <div>产品</div>
+        <div>产品</div>
+        <div>边框宽度3px</div>
+        <div>产品</div>
+        <div>产品</div>
+    </section>
+    <div id="ccc">
+        <p>link</p>
+        <p>link</p>
+        <p>link</p>
+        <p>link</p>
+        <p>link</p>
+    </div>
+    <p id="ddd">©版权所有本页所有布局均使用块元素</p>
+</body>
+
+</html>
