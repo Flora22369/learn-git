@@ -15,8 +15,14 @@ var flora22369={
         return rest
     },
 
-    compact: function(){
-
+    compact: function(array){
+        let result = []
+        for(let i=0 ; i<array.length ; i++){
+            if(array){
+                result.push(array)
+            }
+        }
+        return array
     }
          
 }
