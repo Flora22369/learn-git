@@ -32,5 +32,13 @@ var flora22369={
         return array
     },
 
+    drop: function(array, n=1){
+        var a = []
+        for(i=n ; i<array.length ;i++){
+            a.push(array[i])
+        }
+        return a
+    },
+
          
 }
