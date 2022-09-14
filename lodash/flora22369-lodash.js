@@ -22,7 +22,7 @@ var flora22369={
                 result.push(array)
             }
         }
-        return array
+        return result
     }
          
 }
