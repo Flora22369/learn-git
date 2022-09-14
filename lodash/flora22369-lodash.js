@@ -19,10 +19,11 @@ var flora22369={
         let result = []
         for(let i=0 ; i<array.length ; i++){
             if(array){
-                result.push(array)
+                result.push(array[i])
             }
         }
         return result
-    }
+    },
+
          
 }
