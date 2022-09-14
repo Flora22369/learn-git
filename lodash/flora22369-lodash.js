@@ -18,7 +18,7 @@ var flora22369={
     compact: function(array){
         let result = []
         for(let i=0 ; i<array.length ; i++){
-            if(array){
+            if(array[i]){
                 result.push(array[i])
             }
         }
