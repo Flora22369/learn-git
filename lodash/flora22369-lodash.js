@@ -39,6 +39,12 @@ var flora22369={
         }
         return a
     },
+    flatten: function(array){
+        return array.reduce((result,it) => {
+            return result.concat(it)
+        },[])
+    },
+    
 
          
 }
