@@ -43,7 +43,7 @@ var flora22369={
         return array.reduce((result,it) => {
             return result.concat(it)
         },[])
-    },
+    }
     
 
          
