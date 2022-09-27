@@ -1,5 +1,5 @@
 var flora22369={
-    chunk:function(array, size = 1){
+    chunk: function(array, size = 1){
         let rest = []
         let temp = []
         for(let i=0 ; i<array.length ; i++){
@@ -52,7 +52,27 @@ var flora22369={
             }
             return result.concat(it)
         },[])
-    }
+    },
+
+    flattenDepth: function(array , depth = 1){
+        if(depth == 0){
+            return array
+        }
+        var result = []
+        for(var i = 1; i <=array.length; i++){
+            if(Array.isArray(array) && depth >= 1){
+                result = result.concat(flattenDepth(array[i],depth - 1))
+            }else{
+                result.push(array[i])
+            }
+        }
+        return result
+    },
+
+   pairs: function() {
+
+   }
+
     
 
          
